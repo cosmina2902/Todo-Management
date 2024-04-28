@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@CrossOrigin
+
 public class TodoDto {
 
     private int Id;

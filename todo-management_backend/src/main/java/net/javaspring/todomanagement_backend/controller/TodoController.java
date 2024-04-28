@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/todos")
 @AllArgsConstructor
+@CrossOrigin
 public class TodoController {
 
     private TodoService todoService;
